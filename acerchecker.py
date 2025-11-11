@@ -21,10 +21,16 @@ class Acerchecker:
     
     def show_banner(self):
         banner = """
-╔════════════════════════════════════════════╗
-║               Acer Checker                                  ║
-║               Mobile Legends                                ║
-╚════════════════════════════════════════════╝
+LIGHT_CYAN='\033[1;36m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+echo -e "${LIGHT_CYAN}╔════════════════════════════════════════════╗${NC}"
+echo -e "${LIGHT_CYAN}║ ${YELLOW}>> Acer Checker <<${NC}                             ${LIGHT_CYAN}║${NC}"
+echo -e "${LIGHT_CYAN}║ ${YELLOW}>> Mobile Legends Bang Bang <<${NC}                 ${LIGHT_CYAN}║${NC}"
+echo -e "${LIGHT_CYAN}╚════════════════════════════════════════════╝${NC}"
+echo ""
+
         """
         print(banner)
     
@@ -185,7 +191,7 @@ class Acerchecker:
             choice = input("\nSelect option: ").strip()
             
                 
-            if choice == "1":
+            elif choice == "1":
                 self.clear_screen()
                 self.show_banner()
                 print("📁 BULK ACCOUNT CHECK")
