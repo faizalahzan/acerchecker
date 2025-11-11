@@ -8,10 +8,10 @@ import time
 import json
 import requests
 from datetime import datetime
-from rich.console import Console
-from rich.table import Table
-from rich.panel import Panel
-from rich.prompt import Prompt
+from console import Console
+from table import Table
+from panel import Panel
+from prompt import Prompt
 from rich.progress import track
 
 console = Console()
