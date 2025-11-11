@@ -34,7 +34,7 @@ class Acerchecker:
 
     def show_banner(self):
         print(Style.CYAN + "╔" + "═" * 46 + "╗")
-        print(f"║{Style.BOLD}{Style.WHITE}           ✨ ACER CHECKER ✨           {Style.CYAN}║")
+        print(f"║{Style.BOLD}{Style.WHITE}           ✨ ACER CHECKER ✨            {Style.CYAN}║")
         print(f"║{Style.DIM}{Style.WHITE}          MOBILE LEGENDS EDITION          {Style.CYAN}║")
         print("╚" + "═" * 46 + "╝" + Style.RESET)
         print()
@@ -174,7 +174,7 @@ class Acerchecker:
                 self.show_banner()
                 print(f"{Style.MAGENTA}📁 BULK ACCOUNT CHECK{Style.RESET}")
                 print(Style.GRAY + "─" * 46 + Style.RESET)
-                file_path = input(f"{Style.WHITE}Enter accounts file path:{Style.RESET} ")
+                file_path = input(f"{Style.WHITE}Enter file empas path:{Style.RESET} ")
 
                 last_results = self.bulk_check_accounts(file_path)
                 if last_results:
