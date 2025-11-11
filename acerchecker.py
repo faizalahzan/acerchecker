@@ -8,12 +8,6 @@ import time
 import json
 import requests
 from datetime import datetime
-from table import Table
-from panel import Panel
-from prompt import Prompt
-from rich.progress import track
-
-console = Console()
 
 class Acerchecker:
     def __init__(self):
