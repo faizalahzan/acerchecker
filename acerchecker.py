@@ -34,8 +34,8 @@ class Acerchecker:
 
     def show_banner(self):
         print(Style.CYAN + "╔" + "═" * 46 + "╗")
-        print(f"║{Style.BOLD}{Style.WHITE}           ✨ ACER CHECKER ✨            {Style.CYAN}║")
-        print(f"║{Style.DIM}{Style.WHITE}          MOBILE LEGENDS EDITION          {Style.CYAN}║")
+        print(f"║{Style.BOLD}{Style.WHITE}           ✨ ACER CHECKER ✨                 {Style.CYAN}║")
+        print(f"║{Style.DIM}{Style.WHITE}          MOBILE LEGENDS EDITION              {Style.CYAN}║")
         print("╚" + "═" * 46 + "╝" + Style.RESET)
         print()
 
