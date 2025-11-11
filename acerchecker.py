@@ -191,7 +191,7 @@ echo ""
             choice = input("\nSelect option: ").strip()
             
                 
-            elif choice == "1":
+            if choice == "1":
                 self.clear_screen()
                 self.show_banner()
                 print("📁 BULK ACCOUNT CHECK")
