@@ -8,7 +8,6 @@ import time
 import json
 import requests
 from datetime import datetime
-from console import Console
 from table import Table
 from panel import Panel
 from prompt import Prompt
