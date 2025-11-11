@@ -22,8 +22,8 @@ class Acerchecker:
     def show_banner(self):
         banner = """
 ╔════════════════════════════════════════════╗
-║               Acer Checker                                  ║
-║               Mobile Legends                                ║
+║               Acer Checker                         ║
+║               Mobile Legends                       ║
 ╚════════════════════════════════════════════╝
         """
         print(banner)
@@ -184,7 +184,7 @@ class Acerchecker:
             self.show_menu()
             choice = input("\nSelect option: ").strip()
             
-            if choice == "1":
+            if choice == "0":
                 self.clear_screen()
                 self.show_banner()
                 print("🔍 CHECK SINGLE ACCOUNT")
@@ -206,7 +206,7 @@ class Acerchecker:
                 
                 input("\nPress Enter to continue...")
                 
-            elif choice == "2":
+            elif choice == "1":
                 self.clear_screen()
                 self.show_banner()
                 print("📁 BULK ACCOUNT CHECK")
@@ -265,7 +265,7 @@ class Acerchecker:
                 
                 input("\nPress Enter to continue...")
                 
-            elif choice == "6":
+            elif choice == "2":
                 print("\n Thank you for using Acerchecker")
                 break
                 
