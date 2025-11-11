@@ -22,8 +22,8 @@ class Acerchecker:
     def show_banner(self):
         banner = """
 ╔════════════════════════════════════════════╗
-║               Acer Checker                         ║
-║               Mobile Legends                       ║
+║               Acer Checker                    ║
+║               Mobile Legends                  ║
 ╚════════════════════════════════════════════╝
         """
         print(banner)
